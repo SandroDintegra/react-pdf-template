@@ -1,5 +1,6 @@
 {
   "name": "qr-codes",
+  "homepage": "https://SandroDintegra.github.io/react-pdf-template/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +8,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@react-pdf/renderer": "^4.3.2",
+    "gh-pages": "^6.3.0",
     "qrcode": "^1.5.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

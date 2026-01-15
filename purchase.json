@@ -1,0 +1,874 @@
+{
+    "_id": "695fa53260deeda77fc47bd4",
+    "code": "PR-1562",
+    "name": "test-bazera-123",
+    "description": null,
+    "justification": null,
+    "totalValue": 324,
+    "status": "DELIVERED",
+    "dateRaised": "2026-01-08T12:37:45.216Z",
+    "createdBy": {
+        "_id": "606e111bffcb98edf8991baf",
+        "email": "maarten@dintegra.io",
+        "firstName": "CMMS",
+        "lastName": "Admin",
+        "profileImg": "2024/8/Kkf75GpqaV6sJcrTme2ky.webp",
+        "userName": "admin@spms.app",
+        "profileImgUrl": "https://s3.eu-central-1.amazonaws.com/cmms.dev.tenant-one/private/2024/8/Kkf75GpqaV6sJcrTme2ky.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5BPFUCOHGRENQ4PN%2F20260114%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260114T150736Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5772522d9979fad7de0e5d50734e32970a23827651d94dfe645cb0732008ac1f",
+        "profileImgUrlExpiresAt": "2026-01-14T16:44:12.546Z"
+    },
+    "costCenter": {
+        "_id": "65520f5486a99b0ee62d17f2",
+        "deleted": false,
+        "name": "C2 child",
+        "parentId": null,
+        "level": 0,
+        "__t": "CostCenter",
+        "__v": 0,
+        "code": null,
+        "description": "testttttt",
+        "imageUrl": null
+    },
+    "vendor": {
+        "_id": "6070493bffcb980617991c48",
+        "latLng": [],
+        "type": "RESOURCE_SUPPLIERS",
+        "name": "Honda",
+        "createdAt": "2021-04-09T12:31:55.413Z",
+        "updatedAt": "2025-12-30T11:04:10.452Z",
+        "__v": 0,
+        "isManufacturer": true,
+        "address": [
+            {
+                "isDefault": true,
+                "name": "Print Supplier",
+                "street": "2601b W 6th St",
+                "postalCode": "45999",
+                "city": "Wilmington",
+                "country": "USA",
+                "email": "inex@bla.com",
+                "phone": "+45171773457",
+                "contactPerson": null,
+                "mobile": null,
+                "website": null,
+                "_id": "65e5d6e8a86fcce0110601f1"
+            }
+        ],
+        "isSupplier": false,
+        "code": null
+    },
+    "vendorAddress": {
+        "isDefault": true,
+        "name": "Print Supplier",
+        "street": "2601b W 6th St",
+        "postalCode": "45999",
+        "city": "Wilmington",
+        "country": "USA",
+        "email": "inex@bla.com",
+        "phone": "+45171773457",
+        "contactPerson": null,
+        "mobile": null,
+        "website": null,
+        "_id": "65e5d6e8a86fcce0110601f1"
+    },
+    "shippingAddress": {
+        "isDefault": true,
+        "name": "Address  123",
+        "street": "Address 1 long address example",
+        "postalCode": "34456",
+        "city": "Hamburg",
+        "country": "Germany",
+        "email": "bill@gmail.com",
+        "phone": "+493838383838",
+        "contactPerson": "Bill Thomson",
+        "mobile": "+493838383838",
+        "website": "billwebsite.com",
+        "_id": "65ddb3649fab8b6f438caca0"
+    },
+    "billingAddress": {
+        "companyName": "Address Main 123",
+        "street": "Backer 1",
+        "postalCode": "4984564",
+        "city": "Hamburg",
+        "country": "Germanyდდდდ",
+        "email": "companyoffice@smth.io",
+        "phone": "+493838383838სდსდ",
+        "termsAndConditions": "test",
+        "isDefault": true,
+        "_id": "68ee3c30ed7e5716e58cd624"
+    },
+    "invoices": [],
+    "quotes": [],
+    "attachedFiles": [],
+    "attachedDocuments": [],
+    "itemList": [
+        {
+            "quantity": 3,
+            "receivedQuantity": 3,
+            "resource": {
+                "_id": "693fd7ca91234b69530623ce",
+                "name": "Emergency Liferaft Canister",
+                "internalId": "EMC-001",
+                "description": null,
+                "manufacturer": {
+                    "_id": {
+                        "_id": "681892ef3dd2ecb65acd68c7",
+                        "type": "RESOURCE_SUPPLIERS",
+                        "name": "bazera1",
+                        "latLng": [],
+                        "isManufacturer": true,
+                        "roles": [],
+                        "folders": [],
+                        "leaveSettings": [],
+                        "address": [],
+                        "createdAt": "2025-05-05T10:29:03.296Z",
+                        "updatedAt": "2025-05-05T10:29:03.296Z",
+                        "__v": 0
+                    },
+                    "name": "bazera1"
+                },
+                "manufacturerCode": null,
+                "unit": null,
+                "system": [],
+                "meta": {
+                    "systemMeta": [],
+                    "_id": "693fd7ca91234b69530623cf"
+                },
+                "locations": [
+                    "680b766e863702be1617804c"
+                ],
+                "categories": [
+                    {
+                        "_id": "642450e96539737337640b75",
+                        "deleted": false,
+                        "name": "Equipment",
+                        "code": "Equipment",
+                        "description": null,
+                        "parentId": null,
+                        "imageUrl": null,
+                        "level": 0,
+                        "type": 5,
+                        "createdAt": "2023-03-29T14:53:29.358Z",
+                        "updatedAt": "2025-04-15T10:12:45.301Z",
+                        "__v": 0
+                    }
+                ],
+                "manufacturerBrandNum": "LS24343",
+                "productionYear": 2022,
+                "suppliers": [],
+                "warrantyExpr": null,
+                "coverImage": "2025/12/hQCNOAuRZazxaD5swRuUG.webp",
+                "attachments": [],
+                "isEquipment": true,
+                "isSpareParts": false,
+                "isStockable": true,
+                "isFinancialItem": true,
+                "isService": false,
+                "period": null,
+                "critical": null,
+                "commissionDate": null,
+                "class": null,
+                "spareParts": [],
+                "minQuantity": null,
+                "maxQuantity": null,
+                "lastStockCheckDate": null,
+                "nextStockCheckDate": null,
+                "stock": [
+                    {
+                        "location": "680b766e863702be1617804c",
+                        "quantity": 3,
+                        "_id": "695faf5c60deeda77fc4aa52"
+                    }
+                ],
+                "totalQuantity": 3,
+                "responsibilityOf": [],
+                "isAsset": false,
+                "usedBy": [],
+                "issuedAssignedTo": [],
+                "equipmentStatus": null,
+                "qrCode": "EK251215AB2ZDXGYXQ",
+                "barCode": "EK251215AB2ZDXGYXQ",
+                "unitPrice": null,
+                "assetName": null,
+                "portOfRegistry": null,
+                "yearOfBuild": null,
+                "imoNumber": null,
+                "flag": null,
+                "mmsiNumber": null,
+                "callSign": null,
+                "builder": null,
+                "grossTonnage": null,
+                "lengthOverallAndBreadth": null,
+                "dwt": null,
+                "height": null,
+                "lengthOverall": null,
+                "draught": null,
+                "width": null,
+                "lengthAtWaterLine": null,
+                "displacementLightShip": null,
+                "showInDashboard": false,
+                "serialNumber": null,
+                "departments": [
+                    "6912104bc34a754ad303b276"
+                ],
+                "createdAt": "2025-12-15T09:41:30.256Z",
+                "updatedAt": "2026-01-08T13:21:32.724Z",
+                "__v": 0
+            },
+            "manualManufacturerCode": "se",
+            "isService": false,
+            "unitPrice": 0,
+            "totalPrice": 0,
+            "description": null,
+            "manufacturer": {
+                "_id": "681892ef3dd2ecb65acd68c7",
+                "type": "RESOURCE_SUPPLIERS",
+                "name": "bazera1",
+                "latLng": [],
+                "isManufacturer": true,
+                "roles": [],
+                "folders": [],
+                "leaveSettings": [],
+                "address": [],
+                "createdAt": "2025-05-05T10:29:03.296Z",
+                "updatedAt": "2025-05-05T10:29:03.296Z",
+                "__v": 0
+            },
+            "_id": "695fa53260deeda77fc47bd8"
+        },
+        {
+            "quantity": 1,
+            "receivedQuantity": 1,
+            "resource": {
+                "_id": "65e83d217012cc83a66a79cd",
+                "name": "Test New Resource ANGGფდსფსდფ",
+                "internalId": "010110-<1.889999933333fსდფსდფსდფsdfsdf",
+                "description": "testsdf",
+                "manufacturer": {
+                    "_id": {
+                        "_id": "60702a5cffcb98f1cf991c0c",
+                        "latLng": [],
+                        "type": "RESOURCE_SUPPLIERS",
+                        "name": "5G Automatika Ltd.",
+                        "createdAt": "2021-04-09T10:20:12.785Z",
+                        "updatedAt": "2025-04-15T10:12:44.369Z",
+                        "__v": 0,
+                        "address": [
+                            {
+                                "isDefault": false,
+                                "name": null,
+                                "street": null,
+                                "postalCode": null,
+                                "city": null,
+                                "country": null,
+                                "email": null,
+                                "phone": null,
+                                "contactPerson": null,
+                                "mobile": null,
+                                "website": null,
+                                "_id": "65df136d1d30f13c072ca23e"
+                            }
+                        ],
+                        "isManufacturer": true,
+                        "isSupplier": false,
+                        "code": null
+                    },
+                    "name": "5G Automatika Ltd."
+                },
+                "unit": {
+                    "_id": "69172ccb3e42376cf6d668b8",
+                    "unit": "hgfjhgj"
+                },
+                "system": [
+                    "6426cccd7ba9f379120caf5b",
+                    "655da0100d3333ad5fff62f2",
+                    "6655acf3bc1afb8ea2e9495b"
+                ],
+                "meta": {
+                    "systemMeta": [
+                        {
+                            "_id": "6426cccd7ba9f379120caf5b",
+                            "parents": []
+                        },
+                        {
+                            "_id": "655da0100d3333ad5fff62f2",
+                            "parents": []
+                        },
+                        {
+                            "_id": "6655acf3bc1afb8ea2e9495b",
+                            "parents": []
+                        }
+                    ],
+                    "_id": "6878d3bb3dd9176cb0cc7488"
+                },
+                "locations": [
+                    "6503fd9f3661e2fc71c1e534",
+                    "65f842d791bfd6a15e6787dd",
+                    "63dbb38ee0a55c71e1fca09a",
+                    "63dba513e0a55c71e1fc94b8",
+                    "680b766e863702be1617804c"
+                ],
+                "categories": [
+                    {
+                        "_id": "66ffe84a569bf9fdace117ab",
+                        "deleted": false,
+                        "name": "111",
+                        "code": null,
+                        "description": null,
+                        "parentId": null,
+                        "imageUrl": null,
+                        "level": 4,
+                        "type": 0,
+                        "createdAt": "2024-10-04T13:06:18.865Z",
+                        "updatedAt": "2025-11-14T12:33:17.112Z",
+                        "__v": 0,
+                        "highlightItem": true
+                    },
+                    {
+                        "_id": "63db718ce0a55c71e1fc84bd",
+                        "deleted": false,
+                        "name": "444",
+                        "parentId": null,
+                        "level": 2,
+                        "createdAt": "2023-02-02T08:17:16.690Z",
+                        "updatedAt": "2025-11-18T11:46:02.750Z",
+                        "__v": 0,
+                        "code": null,
+                        "description": null,
+                        "imageUrl": "2025/11/nyG7SQ-1TanhdUtsF0NO6.jpg",
+                        "type": 0,
+                        "highlightItem": false
+                    },
+                    {
+                        "_id": "6453ca1d30e55d7d773e8423",
+                        "deleted": false,
+                        "name": "Asset",
+                        "code": "Asset",
+                        "description": null,
+                        "parentId": null,
+                        "imageUrl": null,
+                        "level": 0,
+                        "type": 8,
+                        "createdAt": "2023-05-04T15:07:09.600Z",
+                        "updatedAt": "2025-04-15T10:12:45.301Z",
+                        "__v": 0
+                    },
+                    {
+                        "_id": "642450e96539737337640b75",
+                        "deleted": false,
+                        "name": "Equipment",
+                        "code": "Equipment",
+                        "description": null,
+                        "parentId": null,
+                        "imageUrl": null,
+                        "level": 0,
+                        "type": 5,
+                        "createdAt": "2023-03-29T14:53:29.358Z",
+                        "updatedAt": "2025-04-15T10:12:45.301Z",
+                        "__v": 0
+                    },
+                    {
+                        "_id": "63e61b09ae3246557b8a6b39",
+                        "deleted": false,
+                        "name": "Spare Part",
+                        "code": "Spare Part",
+                        "description": null,
+                        "parentId": null,
+                        "imageUrl": null,
+                        "level": 0,
+                        "createdAt": "2023-02-10T10:23:05.343Z",
+                        "updatedAt": "2025-04-15T10:12:45.301Z",
+                        "__v": 0,
+                        "type": 1
+                    },
+                    {
+                        "_id": "642450e96539737337640b57",
+                        "deleted": false,
+                        "name": "Service",
+                        "code": "Service",
+                        "description": null,
+                        "parentId": null,
+                        "imageUrl": null,
+                        "level": 0,
+                        "type": 4,
+                        "createdAt": "2023-03-29T14:53:29.265Z",
+                        "updatedAt": "2025-04-15T10:12:45.301Z",
+                        "__v": 0
+                    }
+                ],
+                "manufacturerBrandNum": "lllსდფ",
+                "productionYear": 2024,
+                "suppliers": [
+                    {
+                        "_id": "607463daffcb98f669991e83",
+                        "latLng": [],
+                        "type": "RESOURCE_SUPPLIERS",
+                        "name": "RS Components LTD Long texttt Long textttLong textttLong textttLong textttLong textttLong textttLong texttt",
+                        "createdAt": "2021-04-12T15:14:34.667Z",
+                        "updatedAt": "2025-04-15T10:12:44.369Z",
+                        "__v": 0,
+                        "isManufacturer": true,
+                        "address": [
+                            {
+                                "isDefault": true,
+                                "name": "RS Components LTD Long texttt Long textttLong textttLong textttLong textttLong textttLong textttLong texttt",
+                                "street": "N",
+                                "postalCode": "S",
+                                "city": "N",
+                                "country": "S",
+                                "email": null,
+                                "phone": null,
+                                "contactPerson": null,
+                                "mobile": null,
+                                "website": null,
+                                "_id": "65b7ca4aad472344fb597313"
+                            }
+                        ],
+                        "isSupplier": true
+                    },
+                    {
+                        "_id": "652d07df4c03fe84c56e6f41",
+                        "type": "RESOURCE_SUPPLIERS",
+                        "name": "Star Line 4",
+                        "latLng": [],
+                        "isDummy": false,
+                        "address": [
+                            {
+                                "isDefault": false,
+                                "name": "UK headquarter",
+                                "street": "Sun blvd. 45",
+                                "postalCode": "10000",
+                                "city": "London",
+                                "country": "UK",
+                                "email": "alllicelastname@smth.com",
+                                "phone": null,
+                                "contactPerson": "Alice Cho",
+                                "mobile": null,
+                                "website": null,
+                                "_id": "652e8a71e33fd487e5e5b202"
+                            },
+                            {
+                                "isDefault": true,
+                                "name": "Thames ",
+                                "street": "Thames path",
+                                "postalCode": "W6 9RT",
+                                "city": "London",
+                                "country": "UK",
+                                "email": "thamesoffice@smth.com",
+                                "phone": null,
+                                "contactPerson": "Alexandra McKinley",
+                                "mobile": null,
+                                "website": null,
+                                "_id": "652e8a71e33fd487e5e5b203"
+                            }
+                        ],
+                        "createdAt": "2023-10-16T09:52:31.308Z",
+                        "updatedAt": "2025-04-15T10:12:44.369Z",
+                        "__v": 0,
+                        "isManufacturer": true,
+                        "isSupplier": true
+                    }
+                ],
+                "coverImage": "2024/3/651fb3f3-4448-40c1-8723-21d488720458.jpg",
+                "attachments": [
+                    "6695383f64e6991629b19a7c",
+                    "669538f564e6991629b19f1c",
+                    "66954648f57549e59bf549e4",
+                    "66a0f1064daddf5069a5b06a",
+                    "66a0f629e45f6f9f6228bb86",
+                    "68248e9351a8901924efd809",
+                    "66a0cdebf6147e58123e4ef1"
+                ],
+                "isEquipment": true,
+                "isSpareParts": true,
+                "isStockable": true,
+                "isFinancialItem": true,
+                "period": "63fcadc6697bb0b001f0e33b",
+                "critical": true,
+                "criticalType": {
+                    "_id": "6405d5ba37461d682554cc84",
+                    "type": "EQUIPMENT_CRITICAL",
+                    "name": "Critical - Safety",
+                    "latLng": [],
+                    "isDummy": false,
+                    "createdAt": "2023-03-06T11:59:54.601Z",
+                    "updatedAt": "2025-08-04T12:30:18.288Z",
+                    "__v": 0
+                },
+                "commissionDate": "2024-03-29T00:00:00.000Z",
+                "class": true,
+                "classCode": "67c8740a6c081692f8481e31",
+                "spareParts": [
+                    "64be282532739ff6d35f2819",
+                    "64884586800142b2a77e231c",
+                    "651d5a9550d8f9f87145bee4",
+                    "65f981026b25ca7d07d989a4",
+                    "64884586800142b2a77e231c",
+                    "692ef5ee91f027d666ae8344"
+                ],
+                "minQuantity": 3,
+                "maxQuantity": 100123,
+                "lastStockCheckDate": "2024-03-07T00:00:00.000Z",
+                "nextStockCheckDate": "2024-03-08T00:00:00.000Z",
+                "stock": [
+                    {
+                        "location": "6503fd9f3661e2fc71c1e534",
+                        "quantity": 3,
+                        "_id": "6839c63d9db0c8f6630dd338"
+                    },
+                    {
+                        "location": "65f842d791bfd6a15e6787dd",
+                        "quantity": 22,
+                        "_id": "6839c63d9db0c8f6630dd33c"
+                    },
+                    {
+                        "location": "63dbb38ee0a55c71e1fca09a",
+                        "quantity": 3,
+                        "_id": "6839c63d9db0c8f6630dd33d"
+                    },
+                    {
+                        "location": "63dba513e0a55c71e1fc94b8",
+                        "quantity": 5,
+                        "_id": "6839c63d9db0c8f6630dd33e"
+                    },
+                    {
+                        "location": "680b766e863702be1617804c",
+                        "quantity": 33,
+                        "_id": "6839c63d9db0c8f6630dd33f"
+                    }
+                ],
+                "totalQuantity": 66,
+                "responsibilityOf": [
+                    "607025f6ffcb989407991bf5",
+                    "6070261dffcb989832991bf7",
+                    "60702621ffcb986252991bf8",
+                    "6909e1368f3a714743444d89",
+                    "6909e1878f3a714743444dea"
+                ],
+                "isAsset": true,
+                "usedBy": [
+                    "63d133ce89144a027d7271c7",
+                    "64d4b276d9e9215248921bf0",
+                    "637d0b35ea541d58c7f624ac",
+                    "633c498f1b6f2b2db66b7298",
+                    "6357e84d9f8a3b800e527c58"
+                ],
+                "issuedAssignedTo": [
+                    "63d133ce89144a027d7271c7",
+                    "64d4b276d9e9215248921bf0",
+                    "637d0b35ea541d58c7f624ac",
+                    "63aacba262d23b2199252f5b",
+                    "633c498f1b6f2b2db66b7298",
+                    "6357e84d9f8a3b800e527c58"
+                ],
+                "equipmentStatus": "60702673ffcb9892a1991bfd",
+                "qrCode": "baxto123455555baxto123455555baxto1234555",
+                "barCode": "baxto123455555baxto123455555baxto1234555",
+                "unitPrice": 324,
+                "assetName": "Test 1",
+                "portOfRegistry": "Test 1",
+                "imoNumber": "TEst 1",
+                "flag": "Test 1 ",
+                "mmsiNumber": "Test1",
+                "callSign": "Test1",
+                "builder": " 1Test",
+                "grossTonnage": "Test1",
+                "lengthOverallAndBreadth": "Test1",
+                "dwt": "Test1",
+                "height": "Test1",
+                "lengthOverall": "1Test",
+                "draught": "1Test",
+                "width": "Test1",
+                "lengthAtWaterLine": "Test1",
+                "displacementLightShip": "1Test",
+                "showInDashboard": true,
+                "createdAt": "2024-03-06T09:53:37.612Z",
+                "updatedAt": "2026-01-08T13:21:32.723Z",
+                "__v": 0,
+                "yearOfBuild": 2026,
+                "warrantyExpr": "2024-03-07T00:00:00.000Z",
+                "performance": {
+                    "mttr": 868.67,
+                    "mtbf": 685.94
+                },
+                "isService": true,
+                "additionalSpecification": null,
+                "remarks": null,
+                "troubleshooting": null,
+                "periodChangedDate": "2025-04-30T00:00:00.000Z",
+                "manufacturerCode": "test nodsfsdf",
+                "serialNumber": "123123213123dwqd2312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312312313123123123sdfsdfsdfsdf",
+                "departments": [
+                    "689b1e0d673f049320074c95",
+                    "689b1e0e673f049320074c9d",
+                    "66d8600edd57b63cf2a1a72e",
+                    "66169256f2c6fa53008bfee4",
+                    "6909c98d8f3a71474343986d",
+                    "6912104bc34a754ad303b276"
+                ]
+            },
+            "manualManufacturerCode": "esf",
+            "isService": false,
+            "unitPrice": 324,
+            "totalPrice": 324,
+            "description": null,
+            "manufacturer": {
+                "_id": "60702a5cffcb98f1cf991c0c",
+                "latLng": [],
+                "type": "RESOURCE_SUPPLIERS",
+                "name": "5G Automatika Ltd.",
+                "createdAt": "2021-04-09T10:20:12.785Z",
+                "updatedAt": "2025-04-15T10:12:44.369Z",
+                "__v": 0,
+                "address": [
+                    {
+                        "isDefault": false,
+                        "name": null,
+                        "street": null,
+                        "postalCode": null,
+                        "city": null,
+                        "country": null,
+                        "email": null,
+                        "phone": null,
+                        "contactPerson": null,
+                        "mobile": null,
+                        "website": null,
+                        "_id": "65df136d1d30f13c072ca23e"
+                    }
+                ],
+                "isManufacturer": true,
+                "isSupplier": false,
+                "code": null
+            },
+            "_id": "695faf2a60deeda77fc4a822"
+        },
+        {
+            "quantity": 1,
+            "receivedQuantity": 1,
+            "resource": {
+                "_id": "695faf5860deeda77fc4a998",
+                "name": "sef",
+                "internalId": "aasd-0001",
+                "manufacturer": {
+                    "_id": {
+                        "_id": "695faf5860deeda77fc4a98b",
+                        "type": "RESOURCE_SUPPLIERS",
+                        "name": "esf",
+                        "latLng": [],
+                        "isManufacturer": true,
+                        "roles": [],
+                        "folders": [],
+                        "leaveSettings": [],
+                        "address": [],
+                        "createdAt": "2026-01-08T13:21:28.310Z",
+                        "updatedAt": "2026-01-08T13:21:28.310Z",
+                        "__v": 0
+                    },
+                    "name": "esf"
+                },
+                "system": [],
+                "meta": {
+                    "systemMeta": [],
+                    "_id": "695faf5860deeda77fc4a999"
+                },
+                "locations": [
+                    "680b766e863702be1617804c"
+                ],
+                "categories": [],
+                "suppliers": [],
+                "attachments": [],
+                "isService": false,
+                "spareParts": [],
+                "stock": [
+                    {
+                        "location": "680b766e863702be1617804c",
+                        "quantity": 1,
+                        "_id": "695faf5c60deeda77fc4aa50"
+                    }
+                ],
+                "totalQuantity": 1,
+                "responsibilityOf": [],
+                "usedBy": [],
+                "issuedAssignedTo": [],
+                "qrCode": "RS260108RXZ6282X7R",
+                "barCode": "RS260108RXZ6282X7R",
+                "departments": [
+                    "6912104bc34a754ad303b276"
+                ],
+                "createdAt": "2026-01-08T13:21:28.619Z",
+                "updatedAt": "2026-01-08T13:21:32.725Z",
+                "__v": 0
+            },
+            "manualManufacturerCode": null,
+            "isService": false,
+            "unitPrice": 0,
+            "totalPrice": 0,
+            "description": "<p>sefes</p>",
+            "manufacturer": {
+                "_id": "695faf5860deeda77fc4a98b",
+                "type": "RESOURCE_SUPPLIERS",
+                "name": "esf",
+                "latLng": [],
+                "isManufacturer": true,
+                "roles": [],
+                "folders": [],
+                "leaveSettings": [],
+                "address": [],
+                "createdAt": "2026-01-08T13:21:28.310Z",
+                "updatedAt": "2026-01-08T13:21:28.310Z",
+                "__v": 0
+            },
+            "_id": "695faf4560deeda77fc4a900"
+        }
+    ],
+    "comments": [
+        {
+            "description": null,
+            "attachments": [],
+            "attachedDocuments": [],
+            "user": {
+                "_id": "606e111bffcb98edf8991baf",
+                "email": "maarten@dintegra.io",
+                "firstName": "CMMS",
+                "lastName": "Admin",
+                "profileImg": "2024/8/Kkf75GpqaV6sJcrTme2ky.webp",
+                "userName": "admin@spms.app",
+                "profileImgUrl": "https://s3.eu-central-1.amazonaws.com/cmms.dev.tenant-one/private/2024/8/Kkf75GpqaV6sJcrTme2ky.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5BPFUCOHGRENQ4PN%2F20260114%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260114T150736Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=5772522d9979fad7de0e5d50734e32970a23827651d94dfe645cb0732008ac1f",
+                "profileImgUrlExpiresAt": "2026-01-14T16:44:12.546Z"
+            },
+            "date": "2026-01-08T12:38:10.407Z",
+            "action": "CREATE",
+            "currentReviewer": {
+                "_id": "6914c4f868f5901e67dfea73",
+                "name": "Captain doc test",
+                "shortcut": "dwa"
+            },
+            "deleted": false,
+            "mentionedUsers": [],
+            "_id": "695fa53260deeda77fc47bd9"
+        },
+        {
+            "attachments": [],
+            "attachedDocuments": [],
+            "user": {
+                "_id": "63809ee44d211249382d890b",
+                "email": "t.vekua@dintegra.io",
+                "firstName": "Tamaz",
+                "lastName": "Vekua",
+                "profileImg": "2025/6/G_fGXTAtpLTBREHyUwtPA.webp",
+                "userName": "t.vekua@dintegra.io",
+                "profileImgUrl": "https://s3.eu-central-1.amazonaws.com/cmms.dev.tenant-one/private/2025/6/G_fGXTAtpLTBREHyUwtPA.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5BPFUCOHGRENQ4PN%2F20260114%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260114T153014Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b1681816c94036006e1834e4dc205b05188731ed9bdd9fe57369840ec1d81c47",
+                "profileImgUrlExpiresAt": "2026-01-14T16:44:12.546Z"
+            },
+            "date": "2026-01-08T13:20:49.938Z",
+            "action": "UPDATE",
+            "currentStatus": "FOR_REVIEW",
+            "previousStatus": "DRAFT",
+            "currentReviewer": {
+                "_id": "6914c4f868f5901e67dfea73",
+                "name": "Captain doc test",
+                "shortcut": "dwa"
+            },
+            "previousReviewer": {
+                "_id": "6914c4f868f5901e67dfea73",
+                "name": "Captain doc test",
+                "shortcut": "dwa"
+            },
+            "deleted": false,
+            "mentionedUsers": [],
+            "_id": "695faf3160deeda77fc4a84d"
+        },
+        {
+            "attachments": [],
+            "attachedDocuments": [],
+            "user": {
+                "_id": "63809ee44d211249382d890b",
+                "email": "t.vekua@dintegra.io",
+                "firstName": "Tamaz",
+                "lastName": "Vekua",
+                "profileImg": "2025/6/G_fGXTAtpLTBREHyUwtPA.webp",
+                "userName": "t.vekua@dintegra.io",
+                "profileImgUrl": "https://s3.eu-central-1.amazonaws.com/cmms.dev.tenant-one/private/2025/6/G_fGXTAtpLTBREHyUwtPA.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5BPFUCOHGRENQ4PN%2F20260114%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260114T153014Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b1681816c94036006e1834e4dc205b05188731ed9bdd9fe57369840ec1d81c47",
+                "profileImgUrlExpiresAt": "2026-01-14T16:44:12.546Z"
+            },
+            "date": "2026-01-08T13:21:17.943Z",
+            "action": "UPDATE",
+            "currentStatus": "APPROVED",
+            "previousStatus": "FOR_REVIEW",
+            "currentReviewer": {
+                "_id": "6914c4f868f5901e67dfea73",
+                "name": "Captain doc test",
+                "shortcut": "dwa"
+            },
+            "previousReviewer": {
+                "_id": "6914c4f868f5901e67dfea73",
+                "name": "Captain doc test",
+                "shortcut": "dwa"
+            },
+            "deleted": false,
+            "mentionedUsers": [],
+            "_id": "695faf4d60deeda77fc4a92f"
+        },
+        {
+            "attachments": [],
+            "attachedDocuments": [],
+            "user": {
+                "_id": "63809ee44d211249382d890b",
+                "email": "t.vekua@dintegra.io",
+                "firstName": "Tamaz",
+                "lastName": "Vekua",
+                "profileImg": "2025/6/G_fGXTAtpLTBREHyUwtPA.webp",
+                "userName": "t.vekua@dintegra.io",
+                "profileImgUrl": "https://s3.eu-central-1.amazonaws.com/cmms.dev.tenant-one/private/2025/6/G_fGXTAtpLTBREHyUwtPA.webp?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5BPFUCOHGRENQ4PN%2F20260114%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260114T153014Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=b1681816c94036006e1834e4dc205b05188731ed9bdd9fe57369840ec1d81c47",
+                "profileImgUrlExpiresAt": "2026-01-14T16:44:12.546Z"
+            },
+            "date": "2026-01-08T13:21:32.684Z",
+            "action": "UPDATE",
+            "currentStatus": "DELIVERED",
+            "previousStatus": "APPROVED",
+            "currentReviewer": {
+                "_id": "6914c4f868f5901e67dfea73",
+                "name": "Captain doc test",
+                "shortcut": "dwa"
+            },
+            "previousReviewer": {
+                "_id": "6914c4f868f5901e67dfea73",
+                "name": "Captain doc test",
+                "shortcut": "dwa"
+            },
+            "deleted": false,
+            "mentionedUsers": [],
+            "_id": "695faf5c60deeda77fc4aa36"
+        }
+    ],
+    "estimateDeliveryDate": null,
+    "poNumber": null,
+    "additionalCosts": [],
+    "department": {
+        "_id": "6912104bc34a754ad303b276",
+        "type": "DEPARTMENT",
+        "name": "asdsa",
+        "code": "aasd",
+        "latLng": [],
+        "roles": [],
+        "folders": [],
+        "leaveSettings": [],
+        "address": [],
+        "createdAt": "2025-11-10T16:18:19.423Z",
+        "updatedAt": "2025-11-10T16:18:19.423Z",
+        "__v": 0
+    },
+    "reviewer": {
+        "_id": "6914c4f868f5901e67dfea73",
+        "name": "Captain doc test",
+        "shortcut": "dwa",
+        "systemAdminRole": false,
+        "permissionMetadata": null
+    },
+    "currency": "AFN",
+    "createdAt": "2026-01-08T12:38:10.411Z",
+    "updatedAt": "2026-01-08T14:30:25.913Z",
+    "__v": 0,
+    "isQuoteReceived": false,
+    "signature": "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"
+}

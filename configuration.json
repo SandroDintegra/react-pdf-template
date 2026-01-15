@@ -1,0 +1,10 @@
+{
+  "visibleColumns": [
+    "name",
+    "internalId",
+    "unit",
+    "system.name",
+    "system.code",
+    "productionYear"
+  ]
+}

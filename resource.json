@@ -1,0 +1,710 @@
+{
+    "_id": "6911e68ec34a754ad30176cf",
+    "name": "chemi-resursi",
+    "internalId": "rer-werwe-sdf-xcvxcv-fdgd-3-4-6-8-0001",
+    "description": "sdsd",
+    "manufacturer": {
+        "_id": "60702ab0ffcb980137991c13",
+        "name": "LG Solar"
+    },
+    "manufacturerCode": "2",
+    "unit": {
+        "_id": "690c7513c2a0d6223d1e1c74",
+        "unit": "dsfsdf"
+    },
+    "system": [
+        {
+            "_id": "6655acf3bc1afb8ea2e9495b",
+            "deleted": false,
+            "name": "Group",
+            "code": null,
+            "description": null,
+            "parentId": null,
+            "imageUrl": null,
+            "level": 0,
+            "createdAt": "2024-05-28T10:07:47.664Z",
+            "updatedAt": "2026-01-14T12:08:55.422Z",
+            "__v": 0,
+            "hasChildren": true,
+            "performance": {
+                "mttr": 1009.57,
+                "mtbf": 5612.95
+            }
+        },
+        {
+            "_id": "66a768e22e6ea3c499678067",
+            "deleted": false,
+            "name": "New Sys restr",
+            "code": null,
+            "description": null,
+            "parentId": null,
+            "imageUrl": null,
+            "level": 0,
+            "createdAt": "2024-07-29T10:03:14.521Z",
+            "updatedAt": "2025-09-18T14:46:11.800Z",
+            "__v": 0,
+            "performance": {
+                "mttr": 482.25,
+                "mtbf": 2623.33
+            },
+            "hasChildren": true
+        },
+        {
+            "_id": "6672c10f913eb1d7f2e29097",
+            "deleted": false,
+            "name": "Electrical Installation",
+            "code": "3",
+            "parentId": null,
+            "imageUrl": null,
+            "level": 0,
+            "identifier": "3-electricalinstallation",
+            "createdAt": "2024-06-19T11:29:19.442Z",
+            "updatedAt": "2025-04-15T10:06:46.983Z",
+            "__v": 0
+        },
+        {
+            "_id": "6672c10f913eb1d7f2e291b2",
+            "deleted": false,
+            "name": "Ship Services",
+            "code": "4",
+            "parentId": null,
+            "imageUrl": null,
+            "level": 0,
+            "identifier": "4-shipservices",
+            "createdAt": "2024-06-19T11:29:19.483Z",
+            "updatedAt": "2025-04-15T10:06:46.983Z",
+            "__v": 0
+        },
+        {
+            "_id": "6672c10f913eb1d7f2e2937c",
+            "deleted": false,
+            "name": "Accommodation",
+            "code": "6",
+            "parentId": null,
+            "imageUrl": null,
+            "level": 0,
+            "identifier": "6-accommodation",
+            "createdAt": "2024-06-19T11:29:19.544Z",
+            "updatedAt": "2025-04-15T10:06:46.983Z",
+            "__v": 0
+        },
+        {
+            "_id": "6706692184f22b0976f69232",
+            "deleted": false,
+            "name": "systemmmmmmm",
+            "code": "8",
+            "description": null,
+            "parentId": null,
+            "imageUrl": null,
+            "level": 0,
+            "createdAt": "2024-10-09T11:29:37.941Z",
+            "updatedAt": "2025-09-10T09:26:24.288Z",
+            "__v": 0,
+            "hasChildren": false
+        }
+    ],
+    "meta": {
+        "systemMeta": [
+            {
+                "_id": "6655acf3bc1afb8ea2e9495b",
+                "parents": []
+            },
+            {
+                "_id": "6672c10f913eb1d7f2e29097",
+                "parents": []
+            },
+            {
+                "_id": "6672c10f913eb1d7f2e291b2",
+                "parents": []
+            },
+            {
+                "_id": "6672c10f913eb1d7f2e2937c",
+                "parents": []
+            },
+            {
+                "_id": "66a768e22e6ea3c499678067",
+                "parents": []
+            },
+            {
+                "_id": "6706692184f22b0976f69232",
+                "parents": []
+            }
+        ],
+        "_id": "6911e68ec34a754ad30176d0"
+    },
+    "locations": [
+        {
+            "_id": "63dbb38ee0a55c71e1fca09a",
+            "deleted": false,
+            "name": "44",
+            "parentId": null,
+            "level": 0,
+            "isIndoor": null,
+            "createdAt": "2023-02-02T12:58:54.709Z",
+            "updatedAt": "2025-12-15T13:16:18.936Z",
+            "__v": 0,
+            "code": "788038442767-TD",
+            "status": "69120d1dc34a754ad303645c",
+            "qrCode": "LOC24102025Q9H5S3YBTS",
+            "address": {
+                "streetName": null,
+                "city": null,
+                "postalCode": null,
+                "phoneNumber": null,
+                "_id": "693fd34991234b6953056b1f"
+            },
+            "area": null,
+            "description": null,
+            "dimensions": {
+                "height": null,
+                "depth": null,
+                "length": null,
+                "_id": "693fd34991234b6953056b20"
+            },
+            "imageUrl": null,
+            "maxWeight": null,
+            "responsiblePerson": null,
+            "type": null
+        },
+        {
+            "_id": "65393e4e042c4db940b0c060",
+            "deleted": false,
+            "name": "45",
+            "parentId": null,
+            "level": 0,
+            "isIndoor": false,
+            "createdAt": "2023-10-25T16:11:58.346Z",
+            "updatedAt": "2025-12-15T11:16:37.721Z",
+            "__v": 0,
+            "qrCode": "LOC24102025TXD1CMEE4N",
+            "code": null
+        },
+        {
+            "_id": "68bea0aab2c9d968d67626da",
+            "deleted": false,
+            "name": "LOWER DECK",
+            "code": null,
+            "description": null,
+            "parentId": "6582aae6562512f477d2f6c0",
+            "imageUrl": null,
+            "level": 1,
+            "type": null,
+            "maxWeight": null,
+            "area": null,
+            "responsiblePerson": null,
+            "isIndoor": null,
+            "address": {
+                "streetName": null,
+                "city": null,
+                "postalCode": null,
+                "phoneNumber": null,
+                "_id": "68bea0aab2c9d968d67626db"
+            },
+            "dimensions": {
+                "height": null,
+                "depth": null,
+                "length": null,
+                "_id": "68bea0aab2c9d968d67626dc"
+            },
+            "createdAt": "2025-09-08T09:23:54.888Z",
+            "updatedAt": "2026-01-06T11:19:42.391Z",
+            "__v": 0,
+            "qrCode": "LOC241020254C4VSU1WFJ"
+        },
+        {
+            "_id": "680b766e863702be1617804c",
+            "isUnknownLocation": true,
+            "__v": 0,
+            "code": "U",
+            "createdAt": "2025-04-25T11:47:58.982Z",
+            "deleted": false,
+            "description": "Unknown Location",
+            "isIndoor": false,
+            "level": 0,
+            "name": "Unknown",
+            "updatedAt": "2026-01-08T13:21:32.675Z",
+            "qrCode": "LOC24102025GMURTFZPVY"
+        }
+    ],
+    "categories": [
+        {
+            "_id": "63db718ce0a55c71e1fc84bd",
+            "deleted": false,
+            "name": "444",
+            "parentId": null,
+            "level": 2,
+            "createdAt": "2023-02-02T08:17:16.690Z",
+            "updatedAt": "2025-11-18T11:46:02.750Z",
+            "__v": 0,
+            "code": null,
+            "description": null,
+            "imageUrl": "2025/11/nyG7SQ-1TanhdUtsF0NO6.jpg",
+            "type": 0,
+            "highlightItem": false
+        },
+        {
+            "_id": "64f9df6e69cc66580965e6a6",
+            "deleted": false,
+            "name": "516d",
+            "code": null,
+            "description": "testtttttt",
+            "parentId": null,
+            "imageUrl": null,
+            "level": 0,
+            "type": 0,
+            "createdAt": "2023-09-07T14:34:22.075Z",
+            "updatedAt": "2025-09-16T15:16:48.529Z",
+            "__v": 0
+        }
+    ],
+    "manufacturerBrandNum": "1",
+    "productionYear": 2025,
+    "suppliers": [
+        {
+            "_id": "652d07df4c03fe84c56e6f41",
+            "type": "RESOURCE_SUPPLIERS",
+            "name": "Star Line 4",
+            "latLng": [],
+            "isDummy": false,
+            "address": [
+                {
+                    "isDefault": false,
+                    "name": "UK headquarter",
+                    "street": "Sun blvd. 45",
+                    "postalCode": "10000",
+                    "city": "London",
+                    "country": "UK",
+                    "email": "alllicelastname@smth.com",
+                    "phone": null,
+                    "contactPerson": "Alice Cho",
+                    "mobile": null,
+                    "website": null,
+                    "_id": "652e8a71e33fd487e5e5b202"
+                },
+                {
+                    "isDefault": true,
+                    "name": "Thames ",
+                    "street": "Thames path",
+                    "postalCode": "W6 9RT",
+                    "city": "London",
+                    "country": "UK",
+                    "email": "thamesoffice@smth.com",
+                    "phone": null,
+                    "contactPerson": "Alexandra McKinley",
+                    "mobile": null,
+                    "website": null,
+                    "_id": "652e8a71e33fd487e5e5b203"
+                }
+            ],
+            "createdAt": "2023-10-16T09:52:31.308Z",
+            "updatedAt": "2025-04-15T10:12:44.369Z",
+            "__v": 0,
+            "isManufacturer": true,
+            "isSupplier": true
+        },
+        {
+            "_id": "652d48e2b20dbee9132dca83",
+            "type": "RESOURCE_SUPPLIERS",
+            "name": "Star Line 1",
+            "latLng": [],
+            "isDummy": false,
+            "isManufacturer": true,
+            "isSupplier": true,
+            "address": [
+                {
+                    "isDefault": true,
+                    "name": "5th lane",
+                    "street": "Bubble",
+                    "postalCode": "10115",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "email": null,
+                    "phone": null,
+                    "contactPerson": "Maximilian",
+                    "mobile": null,
+                    "website": null,
+                    "_id": "652fcece9c12b9c4accc9ad5"
+                }
+            ],
+            "createdAt": "2023-10-16T14:29:54.621Z",
+            "updatedAt": "2025-04-15T10:12:44.369Z",
+            "__v": 0
+        }
+    ],
+    "warrantyExpr": "2025-11-10T00:00:00.000Z",
+    "coverImage": null,
+    "attachments": [],
+    "isEquipment": false,
+    "isSpareParts": false,
+    "isStockable": true,
+    "isFinancialItem": true,
+    "isService": false,
+    "period": {
+        "_id": "6406033613c5311dc2c944fc",
+        "type": "EQUIPMENT_PERIOD",
+        "name": "Installed",
+        "latLng": [],
+        "isDummy": false,
+        "createdAt": "2023-03-06T15:13:58.079Z",
+        "updatedAt": "2025-04-15T10:12:44.369Z",
+        "__v": 0
+    },
+    "critical": true,
+    "commissionDate": "2026-01-14T00:00:00.000Z",
+    "class": true,
+    "spareParts": [],
+    "minQuantity": null,
+    "maxQuantity": null,
+    "lastStockCheckDate": "2025-11-10T00:00:00.000Z",
+    "nextStockCheckDate": "2025-11-11T00:00:00.000Z",
+    "stock": [
+        {
+            "location": {
+                "_id": "63dbb38ee0a55c71e1fca09a",
+                "deleted": false,
+                "name": "44",
+                "parentId": null,
+                "level": 0,
+                "isIndoor": null,
+                "createdAt": "2023-02-02T12:58:54.709Z",
+                "updatedAt": "2025-12-15T13:16:18.936Z",
+                "__v": 0,
+                "code": "788038442767-TD",
+                "status": "69120d1dc34a754ad303645c",
+                "qrCode": "LOC24102025Q9H5S3YBTS",
+                "address": {
+                    "streetName": null,
+                    "city": null,
+                    "postalCode": null,
+                    "phoneNumber": null,
+                    "_id": "693fd34991234b6953056b1f"
+                },
+                "area": null,
+                "description": null,
+                "dimensions": {
+                    "height": null,
+                    "depth": null,
+                    "length": null,
+                    "_id": "693fd34991234b6953056b20"
+                },
+                "imageUrl": null,
+                "maxWeight": null,
+                "responsiblePerson": null,
+                "type": null,
+                "parents": []
+            },
+            "quantity": 1,
+            "_id": "6911e99dc34a754ad301a78b"
+        },
+        {
+            "location": {
+                "_id": "65393e4e042c4db940b0c060",
+                "deleted": false,
+                "name": "45",
+                "parentId": null,
+                "level": 0,
+                "isIndoor": false,
+                "createdAt": "2023-10-25T16:11:58.346Z",
+                "updatedAt": "2025-12-15T11:16:37.721Z",
+                "__v": 0,
+                "qrCode": "LOC24102025TXD1CMEE4N",
+                "code": null,
+                "parents": []
+            },
+            "quantity": 2,
+            "_id": "6911e99dc34a754ad301a79e"
+        },
+        {
+            "location": {
+                "_id": "68bea0aab2c9d968d67626da",
+                "deleted": false,
+                "name": "LOWER DECK",
+                "code": null,
+                "description": null,
+                "parentId": "6582aae6562512f477d2f6c0",
+                "imageUrl": null,
+                "level": 1,
+                "type": null,
+                "maxWeight": null,
+                "area": null,
+                "responsiblePerson": null,
+                "isIndoor": null,
+                "address": {
+                    "streetName": null,
+                    "city": null,
+                    "postalCode": null,
+                    "phoneNumber": null,
+                    "_id": "68bea0aab2c9d968d67626db"
+                },
+                "dimensions": {
+                    "height": null,
+                    "depth": null,
+                    "length": null,
+                    "_id": "68bea0aab2c9d968d67626dc"
+                },
+                "createdAt": "2025-09-08T09:23:54.888Z",
+                "updatedAt": "2026-01-06T11:19:42.391Z",
+                "__v": 0,
+                "qrCode": "LOC241020254C4VSU1WFJ",
+                "parents": [
+                    {
+                        "_id": "6582aae6562512f477d2f6c0",
+                        "deleted": false,
+                        "name": "Lower deck",
+                        "code": null,
+                        "description": null,
+                        "parentId": null,
+                        "imageUrl": null,
+                        "level": 0,
+                        "type": null,
+                        "maxWeight": null,
+                        "area": null,
+                        "responsiblePerson": null,
+                        "isIndoor": null,
+                        "address": {
+                            "streetName": null,
+                            "city": null,
+                            "postalCode": null,
+                            "phoneNumber": null
+                        },
+                        "dimensions": {
+                            "height": null,
+                            "depth": null,
+                            "length": null
+                        },
+                        "createdAt": "2023-12-20T08:50:46.212Z",
+                        "updatedAt": "2026-01-06T11:19:42.403Z",
+                        "__v": 0,
+                        "searchTextField": "low owe wer lowe ower lower dec eck deck lower deck",
+                        "qrCode": "LOC24102025J4FA2PBY1I"
+                    }
+                ]
+            },
+            "quantity": 1,
+            "_id": "691707343c5b0df2c819935d"
+        },
+        {
+            "location": {
+                "_id": "680b766e863702be1617804c",
+                "isUnknownLocation": true,
+                "__v": 0,
+                "code": "U",
+                "createdAt": "2025-04-25T11:47:58.982Z",
+                "deleted": false,
+                "description": "Unknown Location",
+                "isIndoor": false,
+                "level": 0,
+                "name": "Unknown",
+                "updatedAt": "2026-01-08T13:21:32.675Z",
+                "qrCode": "LOC24102025GMURTFZPVY",
+                "parents": []
+            },
+            "quantity": 2,
+            "_id": "695ba0a3399ba7f27f6e96f6"
+        }
+    ],
+    "totalQuantity": 6,
+    "responsibilityOf": [
+        {
+            "_id": "68d15034988d4a9034d099c9",
+            "type": "RESPONSIBILITIES",
+            "name": "awdwad",
+            "latLng": [],
+            "roles": [],
+            "folders": [],
+            "leaveSettings": [],
+            "address": [],
+            "createdAt": "2025-09-22T13:33:40.891Z",
+            "updatedAt": "2025-09-22T13:33:44.539Z",
+            "__v": 0
+        },
+        {
+            "_id": "607025f6ffcb989407991bf5",
+            "latLng": [],
+            "type": "RESPONSIBILITIES",
+            "name": "Base maintainer",
+            "createdAt": "2021-04-09T10:01:26.719Z",
+            "updatedAt": "2025-04-15T10:12:44.369Z",
+            "__v": 0
+        }
+    ],
+    "isAsset": false,
+    "usedBy": [
+        {
+            "_id": "606e9b14ffcb981f74991bb6",
+            "email": "sdfsfsd@fsdf.org",
+            "firstName": "fdsf",
+            "lastName": "sdf",
+            "profileImg": null,
+            "userName": "maarten@cmms2.app"
+        },
+        {
+            "_id": "607819adc63fa53ea01449ee",
+            "email": "qwe@rectr.com",
+            "firstName": "werwerg",
+            "lastName": "wqerwercsd",
+            "userName": "demo-one@spms.app",
+            "profileImg": null
+        }
+    ],
+    "issuedAssignedTo": [
+        {
+            "_id": "606e9b14ffcb981f74991bb6",
+            "email": "sdfsfsd@fsdf.org",
+            "firstName": "fdsf",
+            "lastName": "sdf",
+            "profileImg": null,
+            "userName": "maarten@cmms2.app"
+        },
+        {
+            "_id": "607819adc63fa53ea01449ee",
+            "email": "qwe@rectr.com",
+            "firstName": "werwerg",
+            "lastName": "wqerwercsd",
+            "userName": "demo-one@spms.app",
+            "profileImg": null
+        }
+    ],
+    "equipmentStatus": {
+        "_id": "60702696ffcb98a9c0991bfe",
+        "latLng": [],
+        "type": "ASSET_STATUS",
+        "name": "Limited Operational",
+        "color": "#f5f7e8",
+        "createdAt": "2021-04-09T10:04:06.186Z",
+        "updatedAt": "2025-04-15T10:12:44.369Z",
+        "__v": 0
+    },
+    "qrCode": "KF2511106ZW3RJEB9YF2511106ZW3RJEB9Y",
+    "barCode": "KF2511106ZW3RJEB9Y",
+    "unitPrice": null,
+    "assetName": null,
+    "portOfRegistry": null,
+    "yearOfBuild": null,
+    "imoNumber": null,
+    "flag": null,
+    "mmsiNumber": null,
+    "callSign": null,
+    "builder": null,
+    "grossTonnage": null,
+    "lengthOverallAndBreadth": null,
+    "dwt": null,
+    "height": null,
+    "lengthOverall": null,
+    "draught": null,
+    "width": null,
+    "lengthAtWaterLine": null,
+    "displacementLightShip": null,
+    "showInDashboard": false,
+    "serialNumber": "dsdas2333",
+    "departments": [
+        {
+            "_id": "690cb0e2b00cd571ad5d7842",
+            "type": "DEPARTMENT",
+            "name": "rer",
+            "code": "werwer",
+            "latLng": [],
+            "roles": [],
+            "folders": [],
+            "leaveSettings": [],
+            "address": [],
+            "createdAt": "2025-11-06T14:29:54.587Z",
+            "updatedAt": "2025-11-06T14:29:54.587Z",
+            "__v": 0
+        },
+        {
+            "_id": "6911d3d4329e7b38f3e398f2",
+            "type": "DEPARTMENT",
+            "name": "werwe",
+            "code": "werwe",
+            "latLng": [],
+            "roles": [],
+            "folders": [],
+            "leaveSettings": [],
+            "address": [],
+            "createdAt": "2025-11-10T12:00:20.831Z",
+            "updatedAt": "2025-11-10T12:00:20.831Z",
+            "__v": 0
+        },
+        {
+            "_id": "690c753dc2a0d6223d1e1d0c",
+            "type": "DEPARTMENT",
+            "name": "sdf",
+            "code": "sdf",
+            "latLng": [],
+            "roles": [],
+            "folders": [],
+            "leaveSettings": [],
+            "address": [],
+            "createdAt": "2025-11-06T10:15:25.268Z",
+            "updatedAt": "2025-11-06T10:15:25.268Z",
+            "__v": 0
+        },
+        {
+            "_id": "69120d7bc34a754ad3037c0a",
+            "type": "DEPARTMENT",
+            "name": "xcvxcv",
+            "code": "xcvxc",
+            "latLng": [],
+            "roles": [],
+            "folders": [],
+            "leaveSettings": [],
+            "address": [],
+            "createdAt": "2025-11-10T16:06:19.589Z",
+            "updatedAt": "2025-11-10T16:06:19.589Z",
+            "__v": 0
+        },
+        {
+            "_id": "69120d34c34a754ad3036606",
+            "type": "DEPARTMENT",
+            "name": "fdgd",
+            "code": "dfgdg",
+            "latLng": [],
+            "roles": [],
+            "folders": [],
+            "leaveSettings": [],
+            "address": [],
+            "createdAt": "2025-11-10T16:05:08.058Z",
+            "updatedAt": "2025-11-10T16:05:08.058Z",
+            "__v": 0
+        },
+        {
+            "_id": "689b1e0d673f049320074c8d",
+            "type": "DEPARTMENT",
+            "name": "Deck",
+            "code": "DECK",
+            "latLng": [],
+            "roles": [],
+            "folders": [],
+            "leaveSettings": [],
+            "departmentType": 4,
+            "address": [],
+            "createdAt": "2025-08-12T10:57:17.989Z",
+            "updatedAt": "2025-08-12T10:57:17.989Z",
+            "__v": 0
+        }
+    ],
+    "createdAt": "2025-11-10T13:20:14.086Z",
+    "updatedAt": "2026-01-12T14:19:12.690Z",
+    "__v": 0,
+    "classCode": {
+        "_id": "63eb8f5d8637053e34fcfee4",
+        "type": "EQUIPMENT_CLASS",
+        "name": "General - Reportable",
+        "latLng": [],
+        "isDummy": false,
+        "createdAt": "2023-02-14T13:40:45.986Z",
+        "updatedAt": "2025-04-15T10:12:44.369Z",
+        "__v": 0
+    },
+    "criticalType": {
+        "_id": "63eb8f578637053e34fcfec4",
+        "type": "EQUIPMENT_CRITICAL",
+        "name": "Critical - Operation",
+        "latLng": [],
+        "isDummy": false,
+        "createdAt": "2023-02-14T13:40:39.212Z",
+        "updatedAt": "2025-04-15T10:12:44.369Z",
+        "__v": 0
+    }
+}

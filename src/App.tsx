@@ -147,7 +147,6 @@ function App() {
                 fontSize: "14px",
               }}
             >
-              <option value={10}>10 per page (Default)</option>
               {wishlistLayoutOptions.map((opt) => (
                 <option key={opt.value} value={opt.value}>
                   {opt.label}

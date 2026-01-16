@@ -74,7 +74,7 @@ const getDynamicStyles = (gridConfig: any) => StyleSheet.create({
     height: gridConfig.qrSize,
   },
   qrText: {
-    fontSize: Math.max(gridConfig.fontSize - 1, 5),
+    fontSize: Math.max(gridConfig.fontSize - 1.5, 5),
     textAlign: "left",
     fontWeight: "bold",
     marginTop: 2,
@@ -217,7 +217,9 @@ export const QRCard = ({ qrCodeUrl, data, fields, labels, gridConfig }: QRCardPr
               <View key={field} style={styles.row}>
                 <Text style={styles.label}>{label}:</Text>
                 <Text style={index === 0 ? styles.boldValue : styles.value}>
-                  {displayValue}
+                  {displayValue.split("").map((char, idx) => (
+                    <Text key={idx}>{char}</Text>
+                  ))}
                 </Text>
               </View>
             );

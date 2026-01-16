@@ -122,6 +122,7 @@ const getGridConfig = (itemsPerPage: number) => {
     height: `${heightPerc}%`,
     fontSize,
     qrSize,
+    itemsPerPage
   };
 };
 
@@ -129,9 +130,10 @@ const getGridConfig = (itemsPerPage: number) => {
  * Main document component for PDF generation
  */
 export const PrintDocument = ({ items, fields, labels, gridConfig }: any) => {
+  const orientation = gridConfig.itemsPerPage >= 18 ? "landscape" : "portrait";
   return (
     <Document>
-      <Page size="A4" style={styles.page} orientation="portrait">
+      <Page size="A4" style={styles.page} orientation={orientation}>
         {(items || []).map((item: any, index: number) => (
           <QRCard
             key={index}

@@ -36,26 +36,26 @@ const styles = StyleSheet.create({
 
 // Default field labels mapping
 const defaultFieldLabels: Record<string, string> = {
-  name: "Name",
-  internalId: "ID",
-  "unit.unit": "Unit",
-  "system.name": "System Name",
-  "system.code": "System Code",
-  productionYear: "Production year",
-  "period.name": "Equipment Period",
-  "equipmentStatus.name": "Operational",
-  locations: "Locations",
-  categories: "Categories",
-  suppliers: "Supplier",
-  "manufacturer.name": "Manufacturer",
-  manufacturerCode: "Part No",
-  description: "Description",
-  warrantyExpr: "Warranty Expiry",
-  critical: "Critical Resource",
-  serialNumber: "Serial Number",
-  totalQuantity: "Total QTY",
-  minQuantity: "Min QTY",
-};
+    name: "Name",
+    internalId: "ID",
+    "unit.unit": "Unit",
+    "system.name": "System",
+    "system.code": "Sys. Code",
+    productionYear: "Prod. Year",
+    "period.name": "Equip. Period",
+    "equipmentStatus.name": "Operational",
+    locations: "Locations",
+    categories: "Categories",
+    suppliers: "Supplier",
+    "manufacturer.name": "Manufacturer",
+    manufacturerCode: "Part No",
+    description: "Description",
+    warrantyExpr: "Warranty Exp.",
+    critical: "Critical Res.",
+    serialNumber: "Ser.No",
+    totalQuantity: "Total QTY",
+    minQuantity: "Min QTY",
+  };
 
 // Default visible columns
 const defaultVisibleColumns = [

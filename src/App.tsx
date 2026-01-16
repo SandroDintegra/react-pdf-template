@@ -32,7 +32,7 @@ function App() {
     internalId: "ID",
     "unit.unit": "Unit",
     "system.name": "System",
-    "system.code": "System Code",
+    "system.code": "Sys. Code",
     productionYear: "Prod. Year",
     "period.name": "Equip. Period",
     "equipmentStatus.name": "Operational",

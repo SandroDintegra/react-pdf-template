@@ -77,6 +77,8 @@ const getDynamicStyles = (gridConfig: any) => StyleSheet.create({
     fontSize: Math.max(gridConfig.fontSize - 1.5, 5),
     textAlign: "left",
     fontWeight: "bold",
+    paddingLeft: 5,
+    paddingRight: 5,
     marginTop: 2,
     maxLines: 2,
     textOverflow: "ellipsis",
